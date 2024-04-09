@@ -1,0 +1,9 @@
+training:
+  lr: 0.0001
+  max_epochs: 200
+
+batch_size: 4
+pred_dim: 1536
+
+model:
+  planes: 128

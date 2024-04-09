@@ -1,0 +1,10 @@
+training:
+  lr: 0.0001
+  max_epochs: 200
+
+batch_size: 8
+pred_dim: 1536
+
+model:
+  depth: 12
+  n_heads: 12
