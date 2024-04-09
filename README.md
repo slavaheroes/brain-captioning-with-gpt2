@@ -1,5 +1,14 @@
 # CCN 2024: Brain Captioning
 
+## Examples of Captioning Results
+
+| True COCO Caption | Caption from fMRI |
+|---|---|
+| ['Two giraffes that are standing in the grass.', 'Two giraffes are standing together in the field.'] | A couple of giraffes standing in a field. |
+| ['Group of people standing on the side of a busy city street.'] | A group of people walking on a city street. |
+| ['A person who is riding a surfboard in the ocean.'] | A person on a surfboard in the water. |
+
+
 ## Data preparation
 
 We followed the data processing instruction of [Brain Diffuser](https://github.com/ozcelikfu/brain-diffuser).
