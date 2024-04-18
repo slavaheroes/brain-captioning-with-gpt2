@@ -23,7 +23,7 @@ Go to `data_scripts` folder, and then:
 │   └── data_scripts
 │       └── download_nsd_data.py
 ```
-2. Download "COCO_73k_annots_curated.npy" file from HuggingFace NSD, and place it inside `data/annots/` folder.
+2. Download "COCO_73k_annots_curated.npy" file from [HuggingFace NSD](https://huggingface.co/datasets/pscotti/naturalscenesdataset/tree/main), and place it inside `data/annots/` folder.
 
 3. Run `python prepare_nsd_data.py --sub [NUM]` 
 
@@ -41,7 +41,7 @@ Go to `data_scripts` folder, and then:
 
 Every subject has own different brain module. Below are examples of how to train brain networks:
 
-> Note: Training without `--use_mask` showed better performance that training with it.
+> Note: Training without `--use_mask` showed better performance than training with it.
 
 - #### CNNs
 
@@ -63,7 +63,7 @@ Every subject has own different brain module. Below are examples of how to train
 
 ### Captioning module: From Dinov2 embeddings
 
-We used codebase of [ClipCap paper](https://github.com/rmokady/CLIP_prefix_caption). 
+We used the codebase of [ClipCap paper](https://github.com/rmokady/CLIP_prefix_caption). 
 
 We need only one captioning model for all subjects:
 ```bash
