@@ -1,5 +1,7 @@
 # Brain Captioning with GPT-2
 
+[**Preprint**](./BrainCaptioning_preprint.pdf)
+
 ## Examples of Captioning Results
 
 | True COCO Caption | Caption from fMRI |
