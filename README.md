@@ -1,4 +1,4 @@
-# CCN 2024: Brain Captioning
+# Brain Captioning with GPT-2
 
 ## Examples of Captioning Results
 
